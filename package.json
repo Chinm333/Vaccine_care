@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "homepage": "./",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/adiXcodr/feedMyCourseBack"
+  "main": "index.js",
+  "engines": {
+    "node": "12.11.1"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.4",
