@@ -13,6 +13,7 @@
     "@testing-library/jest-dom": "^5.13.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^13.1.9",
+    "babel-node": "^0.0.1-security",
     "bootstrap": "^5.2.0-beta1",
     "buffer": "^6.0.3",
     "firebase": "^8.6.5",
@@ -40,7 +41,6 @@
   },
   "scripts": {
     "text": "echo\"Error:no text specified\" && exit 1",
-    "start": "node index.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
