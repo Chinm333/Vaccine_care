@@ -42,7 +42,7 @@
   },
   "scripts": {
     "text": "echo\"Error:no text specified\" && exit 1",
-    "start": "react-scripts start",
+    "start": "nodemon --exec babel-node index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
