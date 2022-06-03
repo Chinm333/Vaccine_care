@@ -21,6 +21,7 @@
     "moment": "^2.29.1",
     "node-polyfill-webpack-plugin": "^1.1.4",
     "node-sass": "^6.0.0",
+    "nodemon": "^2.0.16",
     "plotly.js": "^2.12.1",
     "react": "^17.0.2",
     "react-chartjs-2": "^4.1.0",
@@ -41,8 +42,7 @@
   },
   "scripts": {
     "text": "echo\"Error:no text specified\" && exit 1",
-    "start": "nodemon --exec babel-node index.js",
-    
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
