@@ -8,7 +8,6 @@
     "node": "16.13.0"
   },
   "dependencies": {
-    "@babel/node": "^7.17.10",
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.13.0",
@@ -43,7 +42,7 @@
   },
   "scripts": {
     "text": "echo\"Error:no text specified\" && exit 1",
-    "start": "nodemon --exec babel-node index.js",
+    "start": "nodemon --exec babel-node react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
