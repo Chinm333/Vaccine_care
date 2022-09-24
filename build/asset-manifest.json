@@ -1,23 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.6edae7cf.chunk.css",
-    "main.js": "./static/js/main.ad68de15.chunk.js",
-    "main.js.map": "./static/js/main.ad68de15.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.7ea7a8b1.js",
-    "runtime-main.js.map": "./static/js/runtime-main.7ea7a8b1.js.map",
-    "static/js/2.ced06902.chunk.js": "./static/js/2.ced06902.chunk.js",
-    "static/js/2.ced06902.chunk.js.map": "./static/js/2.ced06902.chunk.js.map",
+    "main.css": "./static/css/main.cd699e17.css",
+    "main.js": "./static/js/main.3edaa49e.js",
+    "static/media/Montserrat-Medium.ttf": "./static/media/Montserrat-Medium.e2d60bc49517598c0ce8.ttf",
+    "static/media/feedifyLogo.png": "./static/media/feedifyLogo.84dd70fbccff83ab398c.png",
+    "static/media/stockillustration.svg": "./static/media/stockillustration.0e0c72e154a18577d80fcf043203b487.svg",
     "index.html": "./index.html",
-    "static/css/main.6edae7cf.chunk.css.map": "./static/css/main.6edae7cf.chunk.css.map",
-    "static/js/2.ced06902.chunk.js.LICENSE.txt": "./static/js/2.ced06902.chunk.js.LICENSE.txt",
-    "static/media/App.module.css": "./static/media/Montserrat-Medium.e2d60bc4.ttf",
-    "static/media/feedifyLogo.84dd70fb.png": "./static/media/feedifyLogo.84dd70fb.png",
-    "static/media/stockillustration.0e0c72e1.svg": "./static/media/stockillustration.0e0c72e1.svg"
+    "main.cd699e17.css.map": "./static/css/main.cd699e17.css.map",
+    "main.3edaa49e.js.map": "./static/js/main.3edaa49e.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.7ea7a8b1.js",
-    "static/js/2.ced06902.chunk.js",
-    "static/css/main.6edae7cf.chunk.css",
-    "static/js/main.ad68de15.chunk.js"
+    "static/css/main.cd699e17.css",
+    "static/js/main.3edaa49e.js"
   ]
 }

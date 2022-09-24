@@ -6,7 +6,8 @@
   "main": "index.js",
   "engines": {
     "node": "16.13.0",
-    "yarn": "1.22.18"
+    "yarn": "1.22.18",
+    "npm": "8.3.2"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.4",
@@ -25,6 +26,7 @@
     "nodemon": "^2.0.16",
     "plotly.js": "^2.12.1",
     "react": "^17.0.2",
+    "react-bootstrap": "^2.4.0",
     "react-chartjs-2": "^4.1.0",
     "react-datetime": "^3.1.1",
     "react-device-detect": "^1.17.0",
@@ -43,7 +45,7 @@
   },
   "scripts": {
     "text": "echo\"Error:no text specified\" && exit 1",
-    "start": "nodemon --exec babel-node index.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

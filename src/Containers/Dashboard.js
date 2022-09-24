@@ -29,6 +29,7 @@ const data1 = [];
 let dates = [];
 let times = [];
 let temps = [];
+const chinm = [];
 const Dashboard = (props) => {
   const { history } = props;
   const dispatch = useDispatch();
@@ -134,6 +135,7 @@ const Dashboard = (props) => {
     for (let i = 0; i < temps.length; i++) {
       const obj = { date: dates[i], time: times[i], temperature: temps[i] };
       data1.push(obj);
+      chinm.push(obj);
     }
 
     data1.reverse();
@@ -141,7 +143,7 @@ const Dashboard = (props) => {
     setData(data1);
   };
   // try
-
+  // console.log(chinm);
 
 
 
@@ -215,18 +217,19 @@ const Dashboard = (props) => {
             </Card>
           )}
           <Card>
-          <ResponsiveContainer width="100%" aspect={3}>
-            <LineChart data={data1} width={500} height={300} margin={{ top: 5, right: 20, left: 20, bottom: 5 }}>
-              <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="date" interval={'preserveStartEnd'} tickFormatter={(value) => value} />
-              <YAxis dataKey="temperature" interval={'preserveStartEnd'} tickFormatter={(value) => value} />
-              <Tooltip contentStyle={{ backgroundColor: 'yellow' }} />
-              <Legend />
-              <Line type="monotone" dataKey="temperature" stroke="red" activeDot={{ r: 8 }} />
-              <Line type="monotone" dataKey="time" stroke="green" activeDot={{ r: 8 }} />
-            </LineChart>
-          </ResponsiveContainer>
+            <ResponsiveContainer width="100%" aspect={3}>
+              <LineChart data={chinm} width={500} height={300} margin={{ top: 5, right: 20, left: 20, bottom: 5 }}>
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="date" interval={'preserveStartEnd'} tickFormatter={(value) => value} />
+                <YAxis dataKey="temperature" interval={'preserveStartEnd'} tickFormatter={(value) => value} />
+                <Tooltip contentStyle={{ backgroundColor: 'yellow' }} />
+                <Legend />
+                <Line type="monotone" dataKey="temperature" stroke="red" activeDot={{ r: 8 }} />
+                <Line type="monotone" dataKey="time" stroke="green" activeDot={{ r: 8 }} />
+              </LineChart>
+            </ResponsiveContainer>
           </Card>
+
         </div>
       </div>
 
