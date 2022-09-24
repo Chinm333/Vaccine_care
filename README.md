@@ -2,7 +2,7 @@
 # Vaccine_care
 =======
 <div align="center" class="row">
-  <img src="logo_trans.png" width="200"/>
+  <img src="https://media.giphy.com/media/ea6GLprBrh7sWWNsTw/giphy.gif" width="200"/>
 </div>
 <h3 align="center">Vaccine Care - A Temperature Monitoring System</h3>
 <br>
