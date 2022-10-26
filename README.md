@@ -7,10 +7,13 @@
 <h3 align="center">Vaccine Care - A Temperature Monitoring System</h3>
 <br>
 <a href="vaccine care">https://vaccine-care-a-temperature-monitoring-system.netlify.app</a>
-## Technologies used
-* ReactJS
-* Redux
-* Firebase
+<h3>Technologies used</h3>
+<ul>
+  <li>ReactJS</li>
+  <li>Redux</li>
+  <li>Firebase</li>
+</ul>
+
 
 ### Installing and running
 * First install Yarn in your system from `https://classic.yarnpkg.com/en/docs/install`
